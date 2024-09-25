@@ -4,6 +4,7 @@
   
 # Preliminary steps
 - From one of the most commons browsers, install the extension 'Selenium'.
+  (e.g. for Chrome https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd, for Firefox https://addons.mozilla.org/it/firefox/addon/selenium-ide/)
 - Open it, select 'Open an existing project' and select the file 'Validator.side' and then click the 'Run all tests' button.
 - Wait for the end and if some test go wrong, select them individually and try to re-run selecting the 'Run current test' 
   button.
