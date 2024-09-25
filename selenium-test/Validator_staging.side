@@ -1,0 +1,1070 @@
+{
+  "id": "4e03dcc5-eb4d-4c00-8bfa-f4c90c7568cc",
+  "version": "1.0",
+  "name": "Validator",
+  "url": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+  "tests": [{
+    "id": "9c755b80-a68a-4df3-a487-030d4df2e26b",
+    "name": "11. Test Selection",
+    "commands": [{
+      "id": "80833659-1f69-4861-9473-a8fb18ddd52c",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84465e9e-fd0d-4dc9-9f4b-b11175006792",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd32b08c-2a19-49fe-987b-70f6b2705f8f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test selection",
+      "targets": [
+        ["linkText=Test selection", "linkText"],
+        ["css=.ecl-menu__item:nth-child(2) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test selection')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-selection/index.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test selection')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff085f83-f4f0-4ee7-9b25-001bc3b28d33",
+      "comment": "",
+      "command": "click",
+      "target": "css=#metadata-records-group .ecl-radio:nth-child(3) .ecl-radio__box",
+      "targets": [
+        ["css=#metadata-records-group .ecl-radio:nth-child(3) .ecl-radio__box", "css:finder"],
+        ["xpath=//div[@id='metadata-records-group']/fieldset/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26d6366-2af7-4fa2-a0cd-c012058a28dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#metadata-advanced-options-group .ecl-button__icon",
+      "targets": [
+        ["css=#metadata-advanced-options-group .ecl-button__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5ff1440-29d7-4f2f-91e8-51585f867173",
+      "comment": "",
+      "command": "click",
+      "target": "css=#metadata-advanced-options-group .ecl-button__icon",
+      "targets": [
+        ["css=#metadata-advanced-options-group .ecl-button__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fdec17f-9023-4d83-94a2-3ce7cab58343",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-file-upload__button",
+      "targets": [
+        ["css=.ecl-file-upload__button", "css:finder"],
+        ["xpath=//div[@id='uploadCell']/div[2]/div/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Choose files')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dc0ea5b-043d-4e16-aa8c-f53279818ed0",
+      "comment": "",
+      "command": "type",
+      "target": "id=file-upload-multiple",
+      "targets": [
+        ["id=file-upload-multiple", "id"],
+        ["name=file-upload-name", "name"],
+        ["css=#file-upload-multiple", "css:finder"],
+        ["xpath=//input[@id='file-upload-multiple']", "xpath:attributes"],
+        ["xpath=//div[@id='uploadCell']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "<path>/metadata/metadata_example_right.xml"
+    }, {
+      "id": "930bd7bd-254c-4960-85fc-4b48a0f6b5f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#buttonStart > .ecl-button__container",
+      "targets": [
+        ["css=#buttonStart > .ecl-button__container", "css:finder"],
+        ["xpath=//button[@id='buttonStart']/span", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Start test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6c1a9a70-8569-4027-9167-3a0267e0603c",
+    "name": "3. Start a test",
+    "commands": [{
+      "id": "72ba865c-9c7f-4351-b03b-4594dce36ce8",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e11ebe2-f201-44ba-8a2c-c9063f477762",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d828f56-1fb9-4cf1-b84a-bcefa16cce90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-col-10 > .ecl-button",
+      "targets": [
+        ["css=.ecl-col-10 > .ecl-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Start a test ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25523178-426f-4db7-86d6-127dd6a3a9f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#metadata-records-group .ecl-radio:nth-child(3) .ecl-radio__box",
+      "targets": [
+        ["css=#metadata-records-group .ecl-radio:nth-child(3) .ecl-radio__box", "css:finder"],
+        ["xpath=//div[@id='metadata-records-group']/fieldset/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a615f35f-44bc-441f-ad44-d89750bedff0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#metadata-advanced-options-group .ecl-expandable__toggle",
+      "targets": [
+        ["css=#metadata-advanced-options-group .ecl-expandable__toggle", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='metadata-advanced-options-group']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Advanced options')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7f9cdb-aba9-4815-8fd0-ad9ba3876848",
+      "comment": "",
+      "command": "click",
+      "target": "css=#metadata-advanced-options-content > .ecl-form-group:nth-child(3) > .ecl-checkbox:nth-child(4) .ecl-checkbox__box",
+      "targets": [
+        ["css=#metadata-advanced-options-content > .ecl-form-group:nth-child(3) > .ecl-checkbox:nth-child(4) .ecl-checkbox__box", "css:finder"],
+        ["xpath=//div[@id='metadata-advanced-options-content']/fieldset[3]/div[3]/label/span", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/div[3]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e580e39c-f1ff-4fba-92d5-9014a078c234",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-file-upload__button",
+      "targets": [
+        ["css=.ecl-file-upload__button", "css:finder"],
+        ["xpath=//div[@id='uploadCell']/div[2]/div/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Choose files')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c463f773-e3f0-4811-8dbd-0d1142e42408",
+      "comment": "",
+      "command": "type",
+      "target": "id=file-upload-multiple",
+      "targets": [
+        ["id=file-upload-multiple", "id"],
+        ["name=file-upload-name", "name"],
+        ["css=#file-upload-multiple", "css:finder"],
+        ["xpath=//input[@id='file-upload-multiple']", "xpath:attributes"],
+        ["xpath=//div[@id='uploadCell']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "<path>/metadata/metadata_example_wrong.xml"
+    }, {
+      "id": "9dc3726a-2b16-44ed-bb0f-b1d670a3b5d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#buttonStart .ecl-button__label",
+      "targets": [
+        ["css=#buttonStart .ecl-button__label", "css:finder"],
+        ["xpath=//button[@id='buttonStart']/span/span", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9e4d4fc6-de51-4a4b-9c40-ad774f4f6e73",
+    "name": "10. Test Report - status passed",
+    "commands": [{
+      "id": "d3812de8-6450-4ec2-8196-5ebc1433c4df",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7c646b9-3f74-4a11-ba7e-23fffde98728",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41beccbb-b056-4cf3-a941-0b8b7e17970e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c042b38c-77ec-4085-bf5c-74a9dfb65f7b",
+      "comment": "",
+      "command": "select",
+      "target": "id=facet-status",
+      "targets": [],
+      "value": "label=Passed"
+    }, {
+      "id": "abd56d8f-8f05-496a-9334-065af23ab069",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=facet-status",
+      "targets": [
+        ["id=facet-status", "id"],
+        ["css=#facet-status", "css:finder"],
+        ["xpath=//select[@id='facet-status']", "xpath:attributes"],
+        ["xpath=//div[3]/div/select", "xpath:position"]
+      ],
+      "value": "-0.5,0"
+    }, {
+      "id": "bd42d791-827d-4e20-a5c1-b96a21a82988",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=facet-status",
+      "targets": [
+        ["id=facet-status", "id"],
+        ["css=#facet-status", "css:finder"],
+        ["xpath=//select[@id='facet-status']", "xpath:attributes"],
+        ["xpath=//div[3]/div/select", "xpath:position"]
+      ],
+      "value": "-0.5,0"
+    }, {
+      "id": "d6d67c63-a131-44ce-b6ac-8d6d08973c3f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=facet-status",
+      "targets": [
+        ["id=facet-status", "id"],
+        ["css=#facet-status", "css:finder"],
+        ["xpath=//select[@id='facet-status']", "xpath:attributes"],
+        ["xpath=//div[3]/div/select", "xpath:position"]
+      ],
+      "value": "-0.5,0"
+    }, {
+      "id": "33e32a65-af4f-46a4-ac4b-0ec79eb41ee5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-button--primary",
+      "targets": [
+        ["css=.ecl-button--primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0fb8d880-454a-474f-8a37-db229d951795",
+    "name": "8. Test Report - search options",
+    "commands": [{
+      "id": "d132aa3b-bd62-40cd-b6ca-33220348de06",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38864745-e21d-4a15-8114-43902695bb92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd91d7a9-5b93-4229-a267-72d3748e34d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "830c8eff-473e-44b5-8fd3-d0934ffb4ed7",
+      "comment": "",
+      "command": "click",
+      "target": "id=text-input-search-id",
+      "targets": [
+        ["id=text-input-search-id", "id"],
+        ["name=text-input-search-name", "name"],
+        ["css=#text-input-search-id", "css:finder"],
+        ["xpath=//input[@id='text-input-search-id']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67d7ace6-ad27-403f-a60b-4682933cc210",
+      "comment": "",
+      "command": "type",
+      "target": "id=text-input-search-id",
+      "targets": [
+        ["id=text-input-search-id", "id"],
+        ["name=text-input-search-name", "name"],
+        ["css=#text-input-search-id", "css:finder"],
+        ["xpath=//input[@id='text-input-search-id']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "inspire"
+    }, {
+      "id": "e71f4ae7-a171-4dc0-8c11-d294a9d62b1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-button--primary",
+      "targets": [
+        ["css=.ecl-button--primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c580aaba-ad3b-400f-9d1d-f0e8bdf97072",
+    "name": "7. Test Report - resource type metadata",
+    "commands": [{
+      "id": "c50e4061-8bfc-4a8d-aae1-e982e1be02fc",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa82c8bc-afc2-4ba3-b1c2-23ee16cd1c96",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a97dd7e8-05e5-4e8d-8d09-342252c630de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fcd91e8-24cb-40e9-943e-07908ca3d0b3",
+      "comment": "",
+      "command": "select",
+      "target": "id=facet-resource",
+      "targets": [],
+      "value": "label=Metadata"
+    }, {
+      "id": "b3d65053-2a1d-429b-a547-9b22f7336834",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=facet-resource",
+      "targets": [
+        ["id=facet-resource", "id"],
+        ["css=#facet-resource", "css:finder"],
+        ["xpath=//select[@id='facet-resource']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-0.5,0"
+    }, {
+      "id": "b3fbc956-cda1-4ad0-9246-974d28bb2901",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=facet-resource",
+      "targets": [
+        ["id=facet-resource", "id"],
+        ["css=#facet-resource", "css:finder"],
+        ["xpath=//select[@id='facet-resource']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-0.5,0"
+    }, {
+      "id": "58c3090c-a63d-4c58-9a75-8eea50778065",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=facet-resource",
+      "targets": [
+        ["id=facet-resource", "id"],
+        ["css=#facet-resource", "css:finder"],
+        ["xpath=//select[@id='facet-resource']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-0.5,0"
+    }, {
+      "id": "9fa77ff3-ae57-4b1e-ae50-1187bd91c43a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-button--primary",
+      "targets": [
+        ["css=.ecl-button--primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2c1eac21-fbaf-41ee-baa9-b494afc5d84b",
+    "name": "4. Test Report - change page",
+    "commands": [{
+      "id": "05bb7c94-4154-4129-a232-1f89a8de23fc",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "905e71c7-25f2-4644-983e-7c42f4c5fbc7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a19d1680-e522-4cea-ba02-497b33a7050a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d04dc49-c31e-4f2a-b740-f1b898bb0f88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-link > .ecl-icon--rotate-90",
+      "targets": [
+        ["css=.ecl-link > .ecl-icon--rotate-90", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9c68fd9-30f1-4715-bf28-b6adf5743efc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.ecl-pagination__item--next > .ecl-link", "css:finder"],
+        ["xpath=//li[13]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05dd052b-522e-4afd-a7ae-63c39e34063f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Previous",
+      "targets": [
+        ["linkText=Previous", "linkText"],
+        ["css=.ecl-pagination__item--previous > .ecl-link", "css:finder"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dac54af3-2132-47cb-8481-4e3c7f5d3180",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-link > .ecl-icon--rotate-270",
+      "targets": [
+        ["css=.ecl-link > .ecl-icon--rotate-270", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c8520218-0937-406f-861c-369accb4f554",
+    "name": "9. Test Report - see report",
+    "commands": [{
+      "id": "9146c025-104c-4c19-ab80-02098e8c33d9",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "198459d0-5b59-42f7-a130-06252455b296",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75e7fe00-47a2-471f-b68a-182b60b6c402",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "513e793c-b241-40a7-a17e-5b42ff447bd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=expander_EIDcbe91d59-5cac-437d-aee7-82b6771d8027",
+      "targets": [
+        ["id=expander_EIDcbe91d59-5cac-437d-aee7-82b6771d8027", "id"],
+        ["css=#expander_EIDcbe91d59-5cac-437d-aee7-82b6771d8027", "css:finder"],
+        ["xpath=//span[@id='expander_EIDcbe91d59-5cac-437d-aee7-82b6771d8027']", "xpath:attributes"],
+        ["xpath=//div[@id='backgroundStatus_EIDcbe91d59-5cac-437d-aee7-82b6771d8027']/div/div/span", "xpath:idRelative"],
+        ["xpath=//article/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78339b98-1736-4b3e-bb33-1992af6a5508",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See report",
+      "targets": [
+        ["linkText=See report", "linkText"],
+        ["css=table:nth-child(12) #buttonSeeReport_EIDcbe91d59-5cac-437d-aee7-82b6771d8027", "css:finder"],
+        ["xpath=(//a[contains(text(),'See report')])[2]", "xpath:link"],
+        ["xpath=(//a[@id='buttonSeeReport_EIDcbe91d59-5cac-437d-aee7-82b6771d8027'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='content_EIDcbe91d59-5cac-437d-aee7-82b6771d8027']/table/tbody/tr[4]/td[4]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'details.html?id=EIDcbe91d59-5cac-437d-aee7-82b6771d8027')])[2]", "xpath:href"],
+        ["xpath=//td[4]/table/tbody/tr/td/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3778",
+      "windowTimeout": 2000
+    }, {
+      "id": "77d2f00f-4f79-438e-9524-a6714a664d75",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3778}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82bd78cd-a319-4894-9715-8f8c659b739e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0", null]
+      ],
+      "value": ""
+    }, {
+      "id": "fc3b6c6d-8c58-4451-b00e-2496bbd5007a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#controlgroupShow .ui-radio:nth-child(2) > .ui-btn",
+      "targets": [
+        ["css=#controlgroupShow .ui-radio:nth-child(2) > .ui-btn", "css:finder"],
+        ["xpath=//fieldset[@id='controlgroupShow']/div[2]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div[2]/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Only failed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44610664-3fab-453e-aa43-e054b7bd8cd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#controlgroupLOD .ui-first-child",
+      "targets": [
+        ["css=#controlgroupLOD .ui-first-child", "css:finder"],
+        ["xpath=//fieldset[@id='controlgroupLOD']/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'All details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "710027bc-fc3b-40bb-8e5d-34b6954291c5",
+    "name": "6. Test Report - log file",
+    "commands": [{
+      "id": "f472110a-61db-49cb-b2f5-9985d231f4ff",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4012355f-0f59-4967-a1ff-aeaa4240a3ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab093414-ff3c-4fac-b028-2f394c837a12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d1f5d9-4b1f-4697-b3c7-d60c861428ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=expander_EID80ebe363-faaf-40a7-acf7-6184d145141a",
+      "targets": [
+        ["id=expander_EID80ebe363-faaf-40a7-acf7-6184d145141a", "id"],
+        ["css=#expander_EID80ebe363-faaf-40a7-acf7-6184d145141a", "css:finder"],
+        ["xpath=//span[@id='expander_EID80ebe363-faaf-40a7-acf7-6184d145141a']", "xpath:attributes"],
+        ["xpath=//div[@id='backgroundStatus_EID80ebe363-faaf-40a7-acf7-6184d145141a']/div/div/span", "xpath:idRelative"],
+        ["xpath=//article[2]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24e4aaf4-a084-4f19-aaea-7fc90a23768d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log file",
+      "targets": [
+        ["linkText=Log file", "linkText"],
+        ["css=#content_EID80ebe363-faaf-40a7-acf7-6184d145141a td:nth-child(3) td:nth-child(2) > .buttons_links", "css:finder"],
+        ["xpath=(//a[contains(text(),'Log file')])[3]", "xpath:link"],
+        ["xpath=//div[@id='content_EID80ebe363-faaf-40a7-acf7-6184d145141a']/table/tbody/tr[4]/td[3]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://yzyiqfakm4.execute-api.eu-west-1.amazonaws.com/validator/v2/TestRuns/EID80ebe363-faaf-40a7-acf7-6184d145141a/log')]", "xpath:href"],
+        ["xpath=//article[2]/div/div/div[3]/div/div[2]/div[2]/table/tbody/tr[4]/td[3]/table/tbody/tr/td[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1938",
+      "windowTimeout": 2000
+    }, {
+      "id": "85e580f3-f0ef-4d33-8a09-be8b16002613",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1938}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d0143155-8e26-4f68-81f7-7bbe93cced02",
+    "name": "5. Test Report - download file",
+    "commands": [{
+      "id": "50f966c1-d633-4268-967f-776eafb1e03e",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8ca8b63-e931-4511-a28d-534feb96302e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9e31b89-c908-4b6a-8798-504cad719cea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a7eea7-12ac-402e-a307-09eb940d28ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=expander_EID53f03cb2-bf7c-4aff-9765-f60d362291ae",
+      "targets": [
+        ["id=expander_EID53f03cb2-bf7c-4aff-9765-f60d362291ae", "id"],
+        ["css=#expander_EID53f03cb2-bf7c-4aff-9765-f60d362291ae", "css:finder"],
+        ["xpath=//span[@id='expander_EID53f03cb2-bf7c-4aff-9765-f60d362291ae']", "xpath:attributes"],
+        ["xpath=//div[@id='backgroundStatus_EID53f03cb2-bf7c-4aff-9765-f60d362291ae']/div/div/span", "xpath:idRelative"],
+        ["xpath=//article[3]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc7a3446-d75b-4abf-a72f-b3626ee72883",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download report",
+      "targets": [
+        ["linkText=Download report", "linkText"],
+        ["css=#content_EID53f03cb2-bf7c-4aff-9765-f60d362291ae td:nth-child(4) td:nth-child(3) > .buttons_links", "css:finder"],
+        ["xpath=(//a[contains(text(),'Download report')])[6]", "xpath:link"],
+        ["xpath=//div[@id='content_EID53f03cb2-bf7c-4aff-9765-f60d362291ae']/table/tbody/tr[4]/td[4]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://yzyiqfakm4.execute-api.eu-west-1.amazonaws.com/validator/v2/TestRuns/EID53f03cb2-bf7c-4aff-9765-f60d362291ae.html?download=true')])[2]", "xpath:href"],
+        ["xpath=//article[3]/div/div/div[3]/div/div[2]/div[2]/table/tbody/tr[4]/td[4]/table/tbody/tr/td[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5446",
+      "windowTimeout": 2000
+    }, {
+      "id": "1ea7efc7-5985-44f7-b55d-28198cbaf9fd",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "364c300d-4d7b-412c-869d-e3bd104dc7be",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5446}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a460be7-c747-49d4-8af2-add1954958bf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e6e3e95-771f-4ce5-a916-ba407ba45cbc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1c4d8f4b-3526-4929-9398-030da82b5aef",
+    "name": "1. Accessiblity",
+    "commands": [{
+      "id": "6a4721c7-9102-42e0-be30-e9538d86619f",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d558d0fd-dbd5-4408-a4b4-ede51d47f61e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41e76608-e41b-4f21-b7da-7cebec2581b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Accessibility",
+      "targets": [
+        ["linkText=Accessibility", "linkText"],
+        ["css=.ecl-site-footer__list:nth-child(3) .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Accessibility')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../accessibilitystatement.html')]", "xpath:href"],
+        ["xpath=//div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accessibility')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef99c7ff-a6a0-4db7-8018-f65f29d82e12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Feedback",
+      "targets": [
+        ["linkText=Feedback", "linkText"],
+        ["css=.ecl-inpage-navigation__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Feedback')]", "xpath:link"],
+        ["xpath=//ul[@id='ecl-inpage-navigation-default-list']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './accessibilitystatement.html#feedback')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Feedback')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20784ced-4a27-47ff-89be-f0b8f5a3bd3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Compliance status",
+      "targets": [
+        ["linkText=Compliance status", "linkText"],
+        ["css=.ecl-inpage-navigation__item:nth-child(1) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Compliance status')]", "xpath:link"],
+        ["xpath=//ul[@id='ecl-inpage-navigation-default-list']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './accessibilitystatement.html#compliance-status')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Compliance status')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cd7c8030-b197-4e39-88c5-8a3a38bd0819",
+    "name": "2. Navigability",
+    "commands": [{
+      "id": "f8b3ed75-a52b-431c-acbe-1420d195ddac",
+      "comment": "",
+      "command": "open",
+      "target": "https://inspire.ec.europa.eu/validator-staging/home/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd0e9740-a4c1-407b-afe5-c78c5d0f3807",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1850x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a35080df-8fcf-46ff-a3ed-00df34a99705",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "396d315e-4fd4-4fdd-b355-e67f88d45eed",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sortByDate .ecl-button__label",
+      "targets": [
+        ["css=#sortByDate .ecl-button__label", "css:finder"],
+        ["xpath=//button[@id='sortByDate']/span/span", "xpath:idRelative"],
+        ["xpath=//div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e72f081-9cf4-4514-882c-de2bebf76fab",
+      "comment": "",
+      "command": "click",
+      "target": "id=sort_ascending_label",
+      "targets": [
+        ["id=sort_ascending_label", "id"],
+        ["css=#sort_ascending_label", "css:finder"],
+        ["xpath=//span[@id='sort_ascending_label']", "xpath:attributes"],
+        ["xpath=//div[@id='sort_ascending']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ascending')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2061d0a-92e6-4121-8c94-ecfdb4d0e03d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test selection",
+      "targets": [
+        ["linkText=Test selection", "linkText"],
+        ["css=.ecl-menu__item:nth-child(2) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test selection')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-selection/index.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test selection')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a86d5a7-f065-4a9e-b771-a0c7e6df06db",
+      "comment": "",
+      "command": "click",
+      "target": "css=#type-resource-group .ecl-radio:nth-child(4) .ecl-radio__box",
+      "targets": [
+        ["css=#type-resource-group .ecl-radio:nth-child(4) .ecl-radio__box", "css:finder"],
+        ["xpath=//div[@id='type-resource-group']/fieldset/div[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edbbac35-3f99-4bc2-952e-a3a3fd574164",
+      "comment": "",
+      "command": "click",
+      "target": "css=#downloadservice-version-group .ecl-radio:nth-child(3) .ecl-radio__box",
+      "targets": [
+        ["css=#downloadservice-version-group .ecl-radio:nth-child(3) .ecl-radio__box", "css:finder"],
+        ["xpath=//div[@id='downloadservice-version-group']/fieldset/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/fieldset/div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b45adc-3b6e-45d4-878d-d344a5fecd46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.ecl-menu__item:nth-child(1) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../home/index.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2827144-7b9e-4a25-afee-f8d5db8c7144",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test selection",
+      "targets": [
+        ["linkText=Test selection", "linkText"],
+        ["css=.ecl-menu__item:nth-child(2) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test selection')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-selection/index.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test selection')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab02db43-a8cd-497f-a1b4-02ac011638d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.ecl-menu__item:nth-child(1) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../home/index.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1620cb4-b089-48db-b3da-f267a5d05902",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test reports",
+      "targets": [
+        ["linkText=Test reports", "linkText"],
+        ["css=.ecl-menu__item:nth-child(3) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test reports')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-reports/index.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "827d325f-c08b-4ea4-826c-ab43264430cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-link > .ecl-icon--rotate-90",
+      "targets": [
+        ["css=.ecl-link > .ecl-icon--rotate-90", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b948bed4-59e9-4af2-be5f-84158f4606b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test selection",
+      "targets": [
+        ["linkText=Test selection", "linkText"],
+        ["css=.ecl-menu__item:nth-child(2) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test selection')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../test-selection/index.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test selection')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cfb56e0-e7d5-43ba-bbfe-e1252365da62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ecl-menu__item:nth-child(1)",
+      "targets": [
+        ["css=.ecl-menu__item:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='section']/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bd60a49-a579-491b-9b26-38e3236bc5b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.ecl-menu__item:nth-child(1) > .ecl-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//section[@id='section']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../home/index.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b6831482-893a-43a3-847f-2cedd83df18e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://inspire.ec.europa.eu/validator-staging/home/index.html"],
+  "plugins": []
+}
